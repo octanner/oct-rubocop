@@ -1,8 +1,6 @@
 # Oct::Rubocop
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/oct/rubocop`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+These gem contains the rubocop style guide for O.C. Tanner.
 
 ## Installation
 
@@ -22,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See [Inheriting-configuration-from-a-dependency-gem](https://github.com/bbatsov/rubocop/blob/master/manual/configuration.md#inheriting-configuration-from-a-dependency-gem)
+
+Add this to the top of your `.rubocop.yml`
+
+```
+inherit_gem:
+  oct-rubocop: oct_rubocop.yml
+```
 
 ## Development
 
