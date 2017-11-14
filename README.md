@@ -7,7 +7,7 @@ These gem contains the rubocop style guide for O.C. Tanner.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'oct-rubocop', github: 'octanner/oct-rubocop'
+gem 'oct-rubocop', git: 'https://github.com/octanner/oct-rubocop.git'
 ```
 
 And then execute:
