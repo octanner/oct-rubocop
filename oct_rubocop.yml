@@ -1,8 +1,68 @@
 AllCops:
+  Exclude:
+    - '**/bin/*'
+    - '**/.pryrc'
+    - '**/bundle/**/*'
+    - '**/db/**/*'
+    - '**/lib/tasks/**/*'
+    - '**/Rakefile'
+    - '**/Guardfile'
+    - '**/Brewfile'
+    - 'bin/setup'
+    - 'bin/update'
   DisplayCopNames: true
+
+Rails:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'app/controllers/**/*'
+    - '**/spec/**/*'
+    - 'config/**/*'
+
+Metrics/MethodLength:
+  Max: 15
+
+RSpec/NestedGroups:
+  Max: 5
+
+Style/SymbolArray:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 20
 
 Style/Documentation:
   Enabled: false
 
 Metrics/LineLength:
   Max: 100
+
+Layout/AlignParameters:
+  Enabled: true
+  EnforcedStyle: 'with_fixed_indentation'
+
+Layout/AlignHash:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Metrics/ClassLength:
+  Max: 150
+  Exclude:
+    - 'app/controllers/**/*'
+
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+    - and
