@@ -6,3 +6,9 @@ Style/Documentation:
 
 Metrics/LineLength:
   Max: 100
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
