@@ -1,2 +1,4 @@
+require: rubocop-rspec
+
 inherit_from:
   - oct_rubocop.yml
