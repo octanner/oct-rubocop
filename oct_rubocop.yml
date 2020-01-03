@@ -47,11 +47,11 @@ Style/Documentation:
 Metrics/LineLength:
   Max: 100
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: true
   EnforcedStyle: 'with_fixed_indentation'
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
 Layout/MultilineMethodCallIndentation:
