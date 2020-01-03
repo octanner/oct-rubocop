@@ -44,7 +44,7 @@ Metrics/AbcSize:
 Style/Documentation:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 100
 
 Layout/ParameterAlignment:
